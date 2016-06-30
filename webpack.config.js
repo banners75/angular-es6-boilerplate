@@ -13,11 +13,11 @@ module.exports = {
             loader: 'html-loader'
         }, {
             test: /\.css$/,
-            loader: "style-loader!css-loader?sourceMap"
+            loader: 'style-loader!css-loader?sourceMap'
         },{
             test: /\.js$/,
             exclude: /node_modules/,
-            loader: "babel-loader"
+            loader: 'babel-loader'
         }]
     },
     resolve: {

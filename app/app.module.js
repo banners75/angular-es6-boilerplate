@@ -1,10 +1,10 @@
 ﻿import angular from 'angular';
 import uiRouter  from 'angular-ui-router';
-import { HomeController } from './home/home.controller.js';
+import { homeController } from './home/home.controller.js';
 import home from './home/home.html';
 
 var app = angular.module('app', [uiRouter]);
-app.controller('homeController', HomeController);
+app.controller('homeController', homeController);
 
 app.config(function ($stateProvider, $urlRouterProvider) {
 
