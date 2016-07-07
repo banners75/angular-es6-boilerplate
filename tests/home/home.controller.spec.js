@@ -12,7 +12,7 @@ describe("given a new HomeController", () => {
         angular.mock.module("app");
     });
 
-    describe("when initialising complete", () => {
+    describe("when initialising has completed", () => {
         
         beforeEach(() => {
             inject(($rootScope, $controller) => {
