@@ -70,15 +70,21 @@
     <Content Include="app\home\home.controller.js" />
     <Content Include="app\home\home.html" />
     <Content Include="dist\main.js" />
+    <Content Include="gulpfile.js" />
     <Content Include="index.html" />
+    <Content Include="karma.conf.js" />
     <Content Include="packages.config" />
     <Content Include="package.json" />
+    <None Include="Scripts\_references.js" />
+    <Content Include="tests\home\home.controller.spec.js" />
+    <Content Include="tests\tests.js" />
     <Content Include="webpack.config.js" />
     <Content Include="dist\main.js.map" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

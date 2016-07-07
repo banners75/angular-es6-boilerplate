@@ -1,7 +1,7 @@
 class HomeController {
 
     constructor() {
-        this.message = 'the home controller';
+        this.message = "the home controller";
     }
 
 }

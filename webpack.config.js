@@ -1,27 +1,27 @@
-﻿'use strict';
+﻿"use strict";
 
 module.exports = {
-    entry: './app/app.module.js',
+    entry: "./app/app.module.js",
     output: {
-        path: './dist/',
-        filename: '[name].js',
-        sourceMapFileName: '[file].map'
+        path: "./dist/",
+        filename: "[name].js",
+        sourceMapFileName: "[file].map"
     },
     module: {
         loaders: [{
             test: /\.html$/,
-            loader: 'html-loader'
+            loader: "html-loader"
         }, {
             test: /\.css$/,
-            loader: 'style-loader!css-loader?sourceMap'
+            loader: "style-loader!css-loader?sourceMap"
         },{
             test: /\.js$/,
             exclude: /node_modules/,
-            loader: 'babel-loader'
+            loader: "babel-loader"
         }]
     },
     resolve: {
-        extensions: ['','.js','.es6']
+        extensions: ["",".js",".es6"]
     },
-    devtool: 'source-map'
+    devtool: "source-map"
 };
